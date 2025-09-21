@@ -24,7 +24,6 @@ public:
         if (n == 0) return 0;
         vector<int> LMin(n);
         vector<int> RMax(n);
-
         LMin[0] = arr[0];
         for (int i = 1; i < n; i++) {
             LMin[i] = min(arr[i], LMin[i-1]);
