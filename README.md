@@ -38,15 +38,6 @@ Before running the solutions, make sure you have:
 - Optional: Any IDE or code editor like **VS Code**, **CLion**, or **Code::Blocks**  
 - Basic understanding of compiling and executing C++ programs
 
-### Running a Solution  
-
-```bash
-# Step 1: Navigate to a problem folder
-cd Leetcode_solution/0001-two-sum
-
-# Step 2: Compile the C++ file
-g++ -std=c++17 Solution.cpp -o two_sum
-```
 
 ## 🧩 How to Use
 
@@ -75,5 +66,3 @@ Ensure:
 - The code is **well-commented** and **readable**
 - You include explanations if possible (optional but helpful)
 
-# Step 3: Run the compiled program
-./two_sum
