@@ -1,11 +1,7 @@
-
-
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         unordered_map<string, vector<string>> anagramGroups;
-        
-        // Loop through each string in the input vector
         for (string s : strs) {
             string sortedStr = s;  // Create a copy of the string to sort
             sort(sortedStr.begin(), sortedStr.end());  // Sort the copy
